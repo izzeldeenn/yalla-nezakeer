@@ -1,0 +1,12 @@
+.clock {
+    width: 90vw; /* العرض 90% من عرض الشاشة */
+    max-width: 400px; /* تحديد حد أقصى للعرض */
+    height: auto; /* الارتفاع يتغير تلقائيًا بناءً على المحتوى */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%); /* تركز العنصر في منتصف الشاشة أفقيا وعموديا */
+    padding: 20px;
+    box-sizing: border-box; /* ضمان أن الحواف لا تؤثر على الحجم */
+  }
+  
